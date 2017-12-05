@@ -1,0 +1,21 @@
+{
+    "name": "alex290/yii2-treeselect",
+    "description": "Select Tree Map",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Alexandr Martynov",
+            "email": "alex@webgoal.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alex290\\treeselect\\": ""
+        }
+    }
+}
