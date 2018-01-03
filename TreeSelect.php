@@ -19,7 +19,7 @@ class TreeSelect extends \yii\base\Model {
                 $trees[] = $treecat;
             } else {
                 $trees[] = $treecat;
-                foreach ($this->Tree($treecat['childs'], '-') as $t)
+                foreach ($this->Tree($treecat['childs'], $tab.'-') as $t)
                     $trees[] = $t;
             }
         }
